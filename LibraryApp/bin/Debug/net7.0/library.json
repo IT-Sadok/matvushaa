@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 0,
+    "BookName": "Book1",
+    "Author": "Author 1",
+    "ReleaseYear": 1900,
+    "Status": true
+  },
+  {
+    "Id": 1,
+    "BookName": "book2",
+    "Author": "auhtor2",
+    "ReleaseYear": 10,
+    "Status": true
+  },
+  {
+    "Id": 2,
+    "BookName": "book3",
+    "Author": "authoe3",
+    "ReleaseYear": 2009,
+    "Status": true
+  }
+]

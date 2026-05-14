@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BzBsWNj4Qfq8z7/Q8t4JGNkfIUFI5BjNEbV8rY6HRgbpENTE4pUcp7vv3i2+j2N4YH5j5LaeACFhOpiwPuj2Hg==",
+  "success": true,
+  "projectFilePath": "D:\\.Net_Projects\\LibraryAppGitFolder\\LibraryApp.BusinessLogic\\LibraryApp.BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\selin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.8\\microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512",
+    "C:\\Users\\selin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.8\\microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

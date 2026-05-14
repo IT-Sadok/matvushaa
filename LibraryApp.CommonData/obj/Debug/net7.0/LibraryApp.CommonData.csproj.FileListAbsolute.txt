@@ -1,0 +1,12 @@
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\bin\Debug\net7.0\LibraryApp.CommonData.deps.json
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\bin\Debug\net7.0\LibraryApp.CommonData.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\bin\Debug\net7.0\LibraryApp.CommonData.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\LibraryApp.CommonData.csproj.AssemblyReference.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\LibraryApp.CommonData.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\LibraryApp.CommonData.AssemblyInfoInputs.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\LibraryApp.CommonData.AssemblyInfo.cs
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\LibraryApp.CommonData.csproj.CoreCompileInputs.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\LibraryApp.CommonData.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\refint\LibraryApp.CommonData.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\LibraryApp.CommonData.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.CommonData\obj\Debug\net7.0\ref\LibraryApp.CommonData.dll

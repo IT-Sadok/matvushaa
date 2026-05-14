@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/QugXu5rKsCDLYDZyIXQjy2c1O5JZUg/yAjZda9BVRZBXdol6FEN/BdsWlF1Lz2ghMU6vu2xM1/MtOES3MZ/Q==",
+  "success": true,
+  "projectFilePath": "D:\\.Net_Projects\\LibraryAppGitFolder\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\selin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.8\\microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512",
+    "C:\\Users\\selin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.8\\microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

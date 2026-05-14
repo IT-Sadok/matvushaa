@@ -1,0 +1,17 @@
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\bin\Debug\net7.0\LibraryApp.BusinessLogic.deps.json
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\bin\Debug\net7.0\LibraryApp.BusinessLogic.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\bin\Debug\net7.0\LibraryApp.BusinessLogic.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.csproj.AssemblyReference.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.AssemblyInfoInputs.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.AssemblyInfo.cs
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\refint\LibraryApp.BusinessLogic.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\ref\LibraryApp.BusinessLogic.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\bin\Debug\net7.0\LibraryApp.CommonData.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\bin\Debug\net7.0\LibraryApp.CommonData.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\obj\Debug\net7.0\LibraryApp.BusinessLogic.csproj.CopyComplete
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\bin\Debug\net7.0\LibraryApp.DataAccess.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.BusinessLogic\bin\Debug\net7.0\LibraryApp.DataAccess.pdb

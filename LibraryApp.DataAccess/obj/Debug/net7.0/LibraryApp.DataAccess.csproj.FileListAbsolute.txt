@@ -1,0 +1,15 @@
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.DataAccess.deps.json
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.DataAccess.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.DataAccess.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.csproj.AssemblyReference.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.AssemblyInfoInputs.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.AssemblyInfo.cs
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\refint\LibraryApp.DataAccess.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\ref\LibraryApp.DataAccess.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.CommonData.dll
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.CommonData.pdb
+D:\.Net_Projects\LibraryApp\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.csproj.CopyComplete

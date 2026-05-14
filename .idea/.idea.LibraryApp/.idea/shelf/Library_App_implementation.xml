@@ -1,0 +1,324 @@
+<changelist name="Library_App_implementation" date="1778787917904" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/shelved.patch" />
+  <option name="DESCRIPTION" value="Library App implementation" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.BusinessLogic.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.BusinessLogic.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.CommonData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.CommonData.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.DataAccess.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.DataAccess.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/LibraryApp.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/Microsoft.Extensions.DependencyInjection.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/ref/LibraryApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/refint/LibraryApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/apphost.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/apphost.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/LibraryApp.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/LibraryApp.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/LibraryApp.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/LibraryApp.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/LibraryApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/LibraryApp.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/Debug/net7.0/LibraryApp.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/bin/Debug/net7.0/LibraryApp.BusinessLogic.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/bin/Debug/net7.0/LibraryApp.BusinessLogic.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/bin/Debug/net7.0/LibraryApp.CommonData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/bin/Debug/net7.0/LibraryApp.CommonData.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/bin/Debug/net7.0/LibraryApp.DataAccess.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/bin/Debug/net7.0/LibraryApp.DataAccess.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/ref/LibraryApp.BusinessLogic.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/refint/LibraryApp.BusinessLogic.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/LibraryApp.BusinessLogic.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/LibraryApp.BusinessLogic.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/LibraryApp.BusinessLogic.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/LibraryApp.BusinessLogic.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/LibraryApp.BusinessLogic.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/Debug/net7.0/LibraryApp.BusinessLogic.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.BusinessLogic2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.BusinessLogic/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/project.nuget1.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/bin/Debug/net7.0/LibraryApp.CommonData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/bin/Debug/net7.0/LibraryApp.CommonData.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/ref/LibraryApp.CommonData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/refint/LibraryApp.CommonData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/CommonData.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/CommonData.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/CommonData.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/CommonData.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/CommonData.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/CommonData.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/LibraryApp.CommonData.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/LibraryApp.CommonData.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/LibraryApp.CommonData.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/LibraryApp.CommonData.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/LibraryApp.CommonData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/Debug/net7.0/LibraryApp.CommonData.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.CommonData/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/project.nuget2.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/bin/Debug/net7.0/LibraryApp.CommonData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/bin/Debug/net7.0/LibraryApp.CommonData.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.CommonData4.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/bin/Debug/net7.0/LibraryApp.DataAccess.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/bin/Debug/net7.0/LibraryApp.DataAccess.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/ref/LibraryApp.DataAccess.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/refint/LibraryApp.DataAccess.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/LibraryApp.DataAccess.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/LibraryApp.DataAccess.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/LibraryApp.DataAccess.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/LibraryApp.DataAccess.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/LibraryApp.DataAccess.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/Debug/net7.0/LibraryApp.DataAccess.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/LibraryApp.DataAccess3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="LibraryApp.DataAccess/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LibraryApp/.idea/shelf/Library_App_implementation/project.nuget3.cache" />
+  </binary>
+</changelist>
