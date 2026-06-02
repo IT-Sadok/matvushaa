@@ -49,7 +49,7 @@ public class LibraryService(ILibraryRepository bookRepository) : ILibraryService
 
     public void UpdateBookStatus(int bookId, BookStatus statusToUpdate)
     {
-        bookRepository.Update(bookId, statusToUpdate);
+        bookRepository.UpdateBookStatus(bookId, statusToUpdate);
         bookRepository.SaveData();
     }
 
