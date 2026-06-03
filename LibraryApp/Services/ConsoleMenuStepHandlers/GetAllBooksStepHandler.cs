@@ -17,7 +17,7 @@ public class GetAllBooksStepHandler(ILibraryService libraryService) : IMenuStepH
         {
             Console.WriteLine("Our Books:");
             var booksList = libraryService.GetAllBooks();
-            Console.WriteLine("{0,-2} | {1,-20} | {2,-20} | {3,-6} | {4,-10}", "Id", "Name", "Author", "Year", "Status");
+            Console.WriteLine("{0,-2} | {1,-50} | {2,-40} | {3,-6} | {4,-10}", "Id", "Name", "Author", "Year", "Status");
             
             foreach (var book in booksList)
             {

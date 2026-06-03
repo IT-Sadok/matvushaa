@@ -14,5 +14,7 @@ public static class MenuItemsConstants
 
     public const int DeleteBookNumber = 6;
     
+    public const int TasksWorkNumber = 7;
+    
     public const int ExitMenuNumber = 0;
 }
