@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fwLv/qDTecRNMgF6Zu2t/CTd8tfHk0xM/uEkx/4/mss=",
+  "Source": "MicroservicesProject.Telemetry.Ingestor.WebApi",
+  "BasePath": "_content/MicroservicesProject.Telemetry.Ingestor.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

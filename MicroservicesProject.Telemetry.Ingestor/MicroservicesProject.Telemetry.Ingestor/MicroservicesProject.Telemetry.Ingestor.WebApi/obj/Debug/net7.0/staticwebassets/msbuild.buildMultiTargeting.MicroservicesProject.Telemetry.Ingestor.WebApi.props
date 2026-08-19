@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MicroservicesProject.Telemetry.Ingestor.WebApi.props" />
+</Project>

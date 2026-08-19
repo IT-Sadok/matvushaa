@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0fSl/2NcCh4=",
+  "success": true,
+  "projectFilePath": "D:\\.Net_Projects\\LibraryGit\\matvushaa\\MicroservicesProject.Telemetry.Ingestor\\MicroservicesProject.Telemetry.Ingestor\\MicroservicesProject.Telemetry.Ingestor.WebApi\\MicroservicesProject.Telemetry.Ingestor.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\selin\\.nuget\\packages\\hivemqtt\\0.45.1\\hivemqtt.0.45.1.nupkg.sha512",
+    "C:\\Users\\selin\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.1\\microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+    "C:\\Users\\selin\\.nuget\\packages\\nlog\\6.1.4\\nlog.6.1.4.nupkg.sha512",
+    "C:\\Users\\selin\\.nuget\\packages\\system.reactive\\6.1.0\\system.reactive.6.1.0.nupkg.sha512",
+    "C:\\Users\\selin\\.nuget\\packages\\websocket.client\\5.5.0\\websocket.client.5.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
