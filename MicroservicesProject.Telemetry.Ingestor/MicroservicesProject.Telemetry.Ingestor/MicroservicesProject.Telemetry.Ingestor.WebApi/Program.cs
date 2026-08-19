@@ -12,6 +12,9 @@ builder.Logging.AddDebug();
 builder.Services.Configure<MqttOptionsConfigurationModel>(
     builder.Configuration.GetSection(MqttOptionsConfigurationModel.SectionName));
 
+builder.Services.Configure<HostOptions>(options =>
+    options.BackgroundServiceExceptionBehavior = BackgroundServiceExceptionBehavior.Ignore);
+
 builder.Services.AddControllers();
 builder.Services.AddSingleton<ITelemetryBuffer, ChannelTelemetryBuffer>();
 builder.Services.AddTransient<ITelemetryPublisher, MockTelemetryPublisher>();

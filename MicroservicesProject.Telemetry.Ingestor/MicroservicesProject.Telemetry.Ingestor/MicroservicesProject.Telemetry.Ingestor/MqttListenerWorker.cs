@@ -20,49 +20,60 @@ public class MqttListenerWorker(
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var clientOptions = new HiveMQClientOptions
+        HiveMQClient? client = null;
+
+        try
         {
-            Host = _options.Host,
-            Port = _options.Port,
-            ClientId = $"{_options.ClientIdPrefix}_{Guid.NewGuid()}"
-        };
-
-        using var client = new HiveMQClient(clientOptions);
-
-        client.OnMessageReceived += (_, args) => OnMessageReceived(args);
-
-        while (!stoppingToken.IsCancellationRequested)
-        {
-            try
+            while (!stoppingToken.IsCancellationRequested)
             {
-                if (!client.IsConnected())
+                try
                 {
-                    logger.LogInformation("Connecting to MQTT broker at {Host}:{Port}...", _options.Host, _options.Port);
-                    await client.ConnectAsync().ConfigureAwait(false);
+                    if (client is null)
+                    {
+                        var clientOptions = new HiveMQClientOptions
+                        {
+                            Host = _options.Host,
+                            Port = _options.Port,
+                            ClientId = $"{_options.ClientIdPrefix}_{Guid.NewGuid()}"
+                        };
 
-                    await client.SubscribeAsync("telemetry/#").ConfigureAwait(false);
-                    logger.LogInformation("Successfully subscribed to topic: telemetry/#");
+                        client = new HiveMQClient(clientOptions);
+                        client.OnMessageReceived += (_, args) => OnMessageReceived(args);
+                    }
+
+                    if (!client.IsConnected())
+                    {
+                        logger.LogInformation("Connecting to MQTT broker at {Host}:{Port}...", _options.Host, _options.Port);
+                        await client.ConnectAsync().ConfigureAwait(false);
+
+                        await client.SubscribeAsync("telemetry/#").ConfigureAwait(false);
+                        logger.LogInformation("Successfully subscribed to topic: telemetry/#");
+                    }
+                }
+                catch (Exception ex) when (!stoppingToken.IsCancellationRequested)
+                {
+                    logger.LogError(ex, "Failed to connect to MQTT broker. Retrying in 5 seconds...");
+                }
+
+                try
+                {
+                    await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
+                }
+                catch (OperationCanceledException)
+                {
+                    break;
                 }
             }
-            catch (Exception ex) when (!stoppingToken.IsCancellationRequested)
-            {
-                logger.LogError(ex, "Failed to connect to MQTT broker. Retrying in 5 seconds...");
-            }
-
-            try
-            {
-                await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
-            }
-            catch (OperationCanceledException)
-            {
-                break;
-            }
         }
-
-        if (client.IsConnected())
+        finally
         {
-            logger.LogInformation("Disconnecting from MQTT broker...");
-            await client.DisconnectAsync().ConfigureAwait(false);
+            if (client is { } connectedClient && connectedClient.IsConnected())
+            {
+                logger.LogInformation("Disconnecting from MQTT broker...");
+                await connectedClient.DisconnectAsync().ConfigureAwait(false);
+            }
+
+            client?.Dispose();
         }
     }
 
