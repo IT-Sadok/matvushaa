@@ -10,8 +10,4 @@
       <ProjectReference Include="..\MicroservicesProject.Telemetry.Ingestor\MicroservicesProject.Telemetry.Ingestor.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="HiveMQtt" Version="0.45.1" />
-    </ItemGroup>
-
 </Project>
