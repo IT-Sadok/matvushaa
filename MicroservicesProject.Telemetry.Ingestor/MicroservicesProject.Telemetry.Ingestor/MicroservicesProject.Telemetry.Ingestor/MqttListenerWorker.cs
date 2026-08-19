@@ -5,7 +5,7 @@ using HiveMQtt.Client.Events;
 using HiveMQtt.Client.Options;
 using MicroservicesProject.Telemetry.Ingestor.ConfigurationModels;
 using MicroservicesProject.Telemetry.Ingestor.Core;
-using MicroservicesProject.Telemetry.Ingestor.Core.Interfaces;
+using MicroservicesProject.Telemetry.Ingestor.Core.Services;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -13,7 +13,7 @@ using Microsoft.Extensions.Options;
 namespace MicroservicesProject.Telemetry.Ingestor;
 
 public class MqttListenerWorker(
-    ITelemetryBuffer buffer, 
+    TelemetryIngestionService ingestionService,
     IOptions<MqttOptionsConfigurationModel> mqttOptions,
     ILogger<MqttListenerWorker> logger) : BackgroundService
 {
@@ -90,18 +90,16 @@ public class MqttListenerWorker(
                 return;
 
             var payload = JsonSerializer.Deserialize<TelemetryPayload>(
-                payloadText, 
+                payloadText,
                 JsonSerializerOptions.Web
             );
 
-            if (payload is { DeviceId.Length: > 0 })
-            {
-                bool isWritten = buffer.TryWrite(payload);
+            if (payload is null)
+                return;
 
-                if (!isWritten)
-                {
-                    logger.LogWarning("Buffer is full. Rejected metric for device: {DeviceId}", payload.DeviceId);
-                }
+            if (!ingestionService.Ingest(payload))
+            {
+                logger.LogWarning("Telemetry payload rejected for device: {DeviceId}", payload.DeviceId);
             }
         }
         catch (Exception ex)
