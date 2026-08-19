@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\MicroservicesProject.Telemetry.Ingestor.WebApi.props" />
-</Project>
