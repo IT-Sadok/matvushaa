@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json;
 using HiveMQtt.Client;
 using HiveMQtt.Client.Events;
 using HiveMQtt.Client.Options;
@@ -30,6 +31,8 @@ public class MqttListenerWorker(
                 {
                     if (client is null)
                     {
+                        Validator.ValidateObject(_options, new ValidationContext(_options), validateAllProperties: true);
+
                         var clientOptions = new HiveMQClientOptions
                         {
                             Host = _options.Host,
