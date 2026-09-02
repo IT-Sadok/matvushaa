@@ -1,4 +1,4 @@
-using MicroservicesProject.Telemetry.Ingestor;
+﻿using MicroservicesProject.Telemetry.Ingestor;
 using MicroservicesProject.Telemetry.Ingestor.ConfigurationModels;
 using MicroservicesProject.Telemetry.Ingestor.Core.Interfaces;
 using MicroservicesProject.Telemetry.Ingestor.Core.Services;
@@ -9,8 +9,10 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 
-builder.Services.Configure<MqttOptionsConfigurationModel>(
-    builder.Configuration.GetSection(MqttOptionsConfigurationModel.SectionName));
+builder.Services.AddOptions<MqttOptionsConfigurationModel>()
+    .Bind(builder.Configuration.GetSection(MqttOptionsConfigurationModel.SectionName))
+    .ValidateDataAnnotations()
+    .ValidateOnStart();
 
 builder.Services.Configure<HostOptions>(options =>
     options.BackgroundServiceExceptionBehavior = BackgroundServiceExceptionBehavior.Ignore);

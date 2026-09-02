@@ -14,6 +14,7 @@ public class TelemetryController(TelemetryIngestionService ingestionService) : C
     [ProducesResponseType(StatusCodes.Status202Accepted)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
+    [ProducesResponseType(StatusCodes.Status503ServiceUnavailable)]
     public IActionResult Ingest([FromBody] TelemetryPayload payload)
     {
         if (payload is not { DeviceId: { Length: > 0 } })
@@ -21,13 +22,19 @@ public class TelemetryController(TelemetryIngestionService ingestionService) : C
             return BadRequest(new { Error = "DeviceId is required." });
         }
 
-        bool isAccepted = ingestionService.Ingest(payload);
-
-        if (isAccepted)
+        return ingestionService.Ingest(payload) switch
         {
-            return Accepted();
-        }
+            TelemetryIngestResult.Accepted => Accepted(),
+            TelemetryIngestResult.BufferFull => BufferFull(),
+            _ => UnprocessableEntity(new { Error = "The data contain abnormal indicators and have been rejected." })
+        };
+    }
 
-        return UnprocessableEntity(new { Error = "The data contain abnormal indicators and have been rejected." });
+    private IActionResult BufferFull()
+    {
+        Response.Headers.RetryAfter = "1";
+        return StatusCode(
+            StatusCodes.Status503ServiceUnavailable,
+            new { Error = "Ingestion buffer is full. Retry later." });
     }
 }

@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json;
+﻿using System.Text.Json;
 using HiveMQtt.Client;
 using HiveMQtt.Client.Events;
 using HiveMQtt.Client.Options;
@@ -31,8 +30,6 @@ public class MqttListenerWorker(
                 {
                     if (client is null)
                     {
-                        Validator.ValidateObject(_options, new ValidationContext(_options), validateAllProperties: true);
-
                         var clientOptions = new HiveMQClientOptions
                         {
                             Host = _options.Host,
@@ -97,9 +94,15 @@ public class MqttListenerWorker(
             if (payload is null)
                 return;
 
-            if (!ingestionService.Ingest(payload))
+            switch (ingestionService.Ingest(payload))
             {
-                logger.LogWarning("Telemetry payload rejected for device: {DeviceId}", payload.DeviceId);
+                case TelemetryIngestResult.Rejected:
+                    logger.LogWarning("Telemetry payload rejected for device: {DeviceId}", payload.DeviceId);
+                    break;
+                case TelemetryIngestResult.BufferFull:
+                    logger.LogWarning(
+                        "Ingestion buffer full; dropped MQTT telemetry for device: {DeviceId}", payload.DeviceId);
+                    break;
             }
         }
         catch (Exception ex)
